@@ -244,7 +244,7 @@ body{font-family:'Nanum Gothic',sans-serif;background:var(--bg);color:var(--text
 
 <script>
 // ── 데이터 주입 ──
-const DATA = {"units":{"A":[{"name":"","vocab":[],"sentences":[],"hw":""},{"name":"","vocab":[],"sentences":[],"hw":""},{"name":"","vocab":[],"sentences":[],"hw":""}],"B":[]},"students":{"A":[{"name":"숙제","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"근태","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"반","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"내신","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"퀴즈","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"이모지","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"이름","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0}],"B":[]},"materials":{"mid3":[{"name":"드라이브링크","type":"pdf","url":"#"},{"name":"카테고리","type":"pdf","url":"#"},{"name":"이름","type":"pdf","url":"#"}],"mid2":[],"audio":[]}};
+const DATA = {"units":{"A":[{"name":"","vocab":[],"sentences":[],"hw":""},{"name":"","vocab":[],"sentences":[],"hw":""},{"name":"","vocab":[],"sentences":[],"hw":""}],"B":[]},"students":{"A":[{"name":"반","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"근태","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"내신","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"숙제","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"퀴즈","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"이모지","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0},{"name":"이름","emoji":"😊","quiz":0,"hw":0,"exam":0,"attend":0}],"B":[]},"materials":{"mid3":[{"name":"카테고리","type":"pdf","url":"#"},{"name":"드라이브링크","type":"pdf","url":"#"},{"name":"이름","type":"pdf","url":"#"}],"mid2":[],"audio":[]}};
 
 // ── 상태 ──
 let qClass='A', sClass='A', qFilter='all', matTab='mid3';
@@ -373,7 +373,7 @@ function renderS(){
 }
 
 // ── 업데이트 시간 ──
-const buildTime = new Date('2026-05-11T21:58:50.500Z');
+const buildTime = new Date('2026-05-11T22:55:55.407Z');
 const diff = Math.round((Date.now()-buildTime)/60000);
 document.getElementById('upd-time').textContent = diff<2?'방금':diff<60?diff+'분 전':Math.round(diff/60)+'시간 전';
 
