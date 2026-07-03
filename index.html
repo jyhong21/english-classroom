@@ -373,7 +373,7 @@ function renderS(){
 }
 
 // ── 업데이트 시간 ──
-const buildTime = new Date('2026-07-03T02:30:44.356Z');
+const buildTime = new Date('2026-07-03T06:22:44.745Z');
 const diff = Math.round((Date.now()-buildTime)/60000);
 document.getElementById('upd-time').textContent = diff<2?'방금':diff<60?diff+'분 전':Math.round(diff/60)+'시간 전';
 
